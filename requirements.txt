@@ -1,0 +1,9 @@
+unsloth
+datasets
+evaluate
+rouge_score
+accelerate 
+bitsandbytesto
+transformers
+torch
+pandas

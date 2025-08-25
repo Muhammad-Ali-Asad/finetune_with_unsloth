@@ -1,0 +1,20 @@
+# Fine-tuning LLaMA 3.2 with Unsloth for Summarization
+
+This project fine-tunes the **LLaMA 3.2 1B Instruct model** using **Unsloth** on the [Samsum dataset](https://huggingface.co/datasets/knkarthick/samsum) for dialogue summarization.
+
+---
+
+## 🚀 Features
+- Uses **Unsloth** for efficient low-rank fine-tuning (4-bit quantization).
+- Trains on **Samsum** dataset for dialogue-to-summary tasks.
+- Implements **Alpaca-style prompt formatting**.
+- Evaluates using **ROUGE metrics**.
+
+---
+
+## 📦 Requirements
+Install all dependencies with:
+## run this command in terminal
+pip install -r requirements.txt
+
+
