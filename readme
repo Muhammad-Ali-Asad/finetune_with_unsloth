@@ -3,7 +3,7 @@
 This project fine-tunes the **LLaMA 3.2 1B Instruct model** using **Unsloth** on the [Samsum dataset](https://huggingface.co/datasets/knkarthick/samsum) for dialogue summarization.
 ## 🔗 Download Fine-Tuned Model
 The fine-tuned model is available on Hugging Face:
-[Download here](https://huggingface.co/<username>/llama-3.2-finetuned-unsloth)
+[Download here](https://huggingface.co/M-ALI-ASAD/llama-3.2-finetuned-unsloth)
 
 ### How to use in Python:
 ```python
