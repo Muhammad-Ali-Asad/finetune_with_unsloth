@@ -1,0 +1,40 @@
+# Fine-tuning LLaMA 3.2 with Unsloth for Summarization
+
+This project fine-tunes the **LLaMA 3.2 1B Instruct model** using **Unsloth** on the [Samsum dataset](https://huggingface.co/datasets/knkarthick/samsum) for dialogue summarization.
+# 🔗 Download Fine-Tuned Model
+The fine-tuned model is available on Hugging Face:
+[Download here](https://huggingface.co/M-ALI-ASAD/llama-3.2-finetuned-unsloth)
+
+
+# How to use in Python:
+
+from huggingface_hub import hf_hub_download
+
+model_path = hf_hub_download(
+    repo_id="M-ALI-ASAD/llama-3.2-finetuned-unsloth",
+    filename="unsloth.Q4_K_M.gguf"
+)
+print(f"Model downloaded at: {model_path}")
+
+
+
+# 🚀 Features
+
+- Uses **Unsloth** for efficient low-rank fine-tuning (4-bit quantization).
+- Trains on **Samsum** dataset for dialogue-to-summary tasks.
+- Implements **Alpaca-style prompt formatting**.
+- Evaluates using **ROUGE metrics**.
+
+
+
+# 📦 Requirements
+
+Install all dependencies with:
+## run this command in terminal
+pip install -r requirements.txt
+download the model from hugging face https://huggingface.co/M-ALI-ASAD/llama-3.2-finetuned-unsloth
+
+
+# RUN
+run main.py
+
