@@ -30,11 +30,12 @@ print(f"Model downloaded at: {model_path}")
 # 📦 Requirements
 
 Install all dependencies with:
-## run this command in terminal
+run this command in terminal
 pip install -r requirements.txt
 download the model from hugging face https://huggingface.co/M-ALI-ASAD/llama-3.2-finetuned-unsloth
 
 
 # RUN
 run main.py
+
 
